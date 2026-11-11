@@ -29,7 +29,3 @@ All user-supplied text is inserted with `textContent`, never `innerHTML`, so sto
 ## Run locally
 
 Open `index.html` in a browser, or serve the folder with any static server. To use a local backend, change `API_BASE` to `http://localhost:5000` and set the backend's `FRONTEND_ORIGIN` to the origin you are serving from.
-
-## Deploy
-
-Import this repository into Vercel (or drag the folder onto Netlify) with the framework preset set to "Other" and no build command.
